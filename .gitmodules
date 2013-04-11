@@ -1,0 +1,3 @@
+[submodule "xilinx-waf"]
+	path = xilinx-waf
+	url = git://github.com/sanpii/xilinx-waf.git
