@@ -3,6 +3,6 @@
 bld(
     target = "blink",
     source = bld.path.ant_glob("*.v"),
-    ucf = "src/papilio.ucf",
-    device = "xc3s500e-4-vq100",
+    ucf = "papilio.ucf",
+    device = "xc3s500e-4-vq100"
 )
