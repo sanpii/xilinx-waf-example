@@ -1,8 +1,0 @@
-#!/usr/bin/env python
-
-bld(
-    target = "blink",
-    source = bld.path.ant_glob("*.v"),
-    ucf = "papilio.ucf",
-    device = "xc3s500e-4-vq100"
-)

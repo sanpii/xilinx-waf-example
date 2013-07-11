@@ -6,5 +6,5 @@ def options(opt):
 def configure(conf):
     conf.load("xilinx", tooldir = "xilinx-waf")
 
-def build(bld):
+def synthetize(bld):
     bld.recurse('src')
