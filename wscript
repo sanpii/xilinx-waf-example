@@ -8,3 +8,6 @@ def configure(conf):
 
 def synthetize(bld):
     bld.recurse('src')
+
+def simulate(bld):
+    bld.recurse('src')

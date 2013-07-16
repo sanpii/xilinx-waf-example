@@ -7,3 +7,9 @@ def synthetize(bld):
         ucf = "papilio.ucf",
         device = "xc3s500e-4fg320"
     )
+
+def simulate(bld):
+    bld(
+        target = "blink_bench",
+        source = ["main.v", "blinkTest.v"]
+    )
