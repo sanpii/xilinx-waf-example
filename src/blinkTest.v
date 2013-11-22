@@ -10,6 +10,10 @@ module blinkTest;
     );
 
     initial begin
+        $dumpfile("blink_bench.vcd");
+        $dumpvars(0, clk);
+        $dumpvars(0, led);
+
         clk = 0;
 
         #100 $stop;
